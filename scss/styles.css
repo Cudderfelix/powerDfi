@@ -1,8 +1,84 @@
-.nav-style {
-  background-color: #5250A4;
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;700;800&display=swap");
+body {
+  font-family: 'Mukta', sans-serif;
 }
 
-.nav-style .nav-menu {
-  color: darkgrey;
+body .nav-style {
+  background-color: #5250a4;
+  margin: 0;
+}
+
+body #first-header .power-dfi-header {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 2.5rem;
+}
+
+body #first-header span {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 0.5rem;
+}
+
+body .p-dfi-header {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+body .p-styling {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+body .about-us {
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+body .about-us p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #737B7D;
+  text-align: center;
+}
+
+body .about-us h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+body img-styling {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #5250a4;
+  margin-top: 0.7em;
+  margin-bottom: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: #E5E5E5;
+}
+
+footer .footer-style {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+footer .footer-style li {
+  list-style: none;
+}
+
+footer .footer-style a {
+  font-family: 'Mukta', sans-serif;
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+footer .copyright-icon {
+  margin-right: 0.4rem;
 }
 /*# sourceMappingURL=styles.css.map */

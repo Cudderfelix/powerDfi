@@ -1,8 +1,85 @@
                   // Styles.scss
-                  //Includes all of Bootstrap
-                  .nav-style {
-                      background-color: #5250A4;
-                      .nav-menu {
-                          color: darkgrey;
+                  //Includes color schemes & utilities
+                  //     @import "../node_modules/bootstrap/scss/functions";
+                  //     @import "../node_modules/bootstrap/scss/variables";
+                  //     @import "../node_modules/bootstrap/scss/mixins";
+                  //     @import "../node_modules/bootstrap/scss/root";
+                  // Modify colors to be used on PowerDfi Project
+                  // Google Font for PowerDfi Project
+                  @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;700;800&display=swap');
+                  // Colors to be used
+                  $color1: #5250a4;
+                  $color2: #E5E5E5;
+                  $color3: #737B7D;
+                  // Sass rendering for PowerDfi
+                  body {
+                      font-family: 'Mukta', sans-serif;
+                      .nav-style {
+                          background-color: #5250a4;
+                          margin: 0;
+                      }
+                      #first-header {
+                          .power-dfi-header {
+                              font-size: 2.2rem;
+                              font-weight: 800;
+                              line-height: 2.5rem;
+                          }
+                          span {
+                              padding-top: 2rem;
+                              font-size: 1.3rem;
+                              font-weight: 400;
+                              line-height: 0.5rem;
+                          }
+                      }
+                      .p-dfi-header {
+                          font-size: 2.2rem;
+                          font-weight: 700;
+                          line-height: 3rem;
+                      }
+                      .p-styling {
+                          font-size: 1rem;
+                          font-weight: 400;
+                          line-height: 2rem;
+                      }
+                      .about-us {
+                          font-size: 2.2rem;
+                          font-weight: 800;
+                          text-align: center;
+                          p {
+                              font-size: 1.3rem;
+                              font-weight: 400;
+                              color: $color3;
+                              text-align: center;
+                          }
+                          h3 {
+                              font-size: 1.8rem;
+                              font-weight: 800;
+                          }
+                      }
+                      img-styling {
+                          padding: 2rem;
+                      }
+                  }
+                  
+                  footer {
+                      background-color: #5250a4;
+                      margin-top: 0.7em;
+                      margin-bottom: 0;
+                      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+                      color: $color2;
+                      .footer-style {
+                          font-size: 1rem;
+                          font-weight: 300;
+                          li {
+                              list-style: none;
+                          }
+                          a {
+                              font-family: 'Mukta', sans-serif;
+                              color: $color2;
+                              text-decoration: none;
+                          }
+                      }
+                      .copyright-icon {
+                          margin-right: 0.4rem;
                       }
                   }
