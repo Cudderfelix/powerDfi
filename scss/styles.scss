@@ -26,6 +26,8 @@
                       .container-first {
                           width: 100%;
                           background: linear-gradient( to right, $color5 100%);
+                          padding: 2rem;
+                          margin: 0rem 0rem 3rem 0rem;
                           #first-header {
                               .power-dfi-header {
                                   font-weight: 800;
@@ -92,8 +94,8 @@
                           margin-right: 0.4rem;
                       }
                       .border-line {
-                          border-radius: 0.3rem;
-                          border: solid 0.2rem;
+                          border-radius: 0.2rem;
+                          border: solid 2px;
                           color: $color7;
                           margin: 0.45rem;
                       }
