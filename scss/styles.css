@@ -1,36 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;700;800&display=swap");
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Mukta', sans-serif;
 }
 
 body .nav-style {
   background-color: #5250a4;
-  margin: 0;
 }
 
-body #first-header .power-dfi-header {
-  font-size: 2.2rem;
+body .container-first {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, to(#f5f7fa));
+  background: linear-gradient(to right, #f5f7fa 100%);
+}
+
+body .container-first #first-header .power-dfi-header {
   font-weight: 800;
   line-height: 2.5rem;
 }
 
-body #first-header span {
-  padding-top: 2rem;
-  font-size: 1.3rem;
+body .container-first #first-header .power-dfi-header .power-writeup {
+  padding: 2rem;
+  font-size: 1.35rem;
   font-weight: 400;
-  line-height: 0.5rem;
+  line-height: 0.2em;
+  color: #737B7D;
 }
 
 body .p-dfi-header {
-  font-size: 2.2rem;
   font-weight: 700;
   line-height: 3rem;
 }
 
 body .p-styling {
-  font-size: 1rem;
   font-weight: 400;
   line-height: 2rem;
+  color: #737B7D;
+  font-size: 1.2rem;
 }
 
 body .about-us {
@@ -39,8 +46,8 @@ body .about-us {
   text-align: center;
 }
 
-body .about-us p {
-  font-size: 1.3rem;
+body .about-us h4 {
+  font-size: 1rem;
   font-weight: 400;
   color: #737B7D;
   text-align: center;
@@ -80,5 +87,12 @@ footer .footer-style a {
 
 footer .copyright-icon {
   margin-right: 0.4rem;
+}
+
+footer .border-line {
+  border-radius: 0.3rem;
+  border: solid 0.2rem;
+  color: #34C5FE;
+  margin: 0.45rem;
 }
 /*# sourceMappingURL=styles.css.map */
